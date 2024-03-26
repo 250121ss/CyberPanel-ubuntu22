@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt install curl wget
+sudo su
+sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)
+sudo su - -c "sh <(curl https://cyberpanel.net/install.sh || wget -O - https://cyberpanel.net/install.sh)"
+http://ip:8090
